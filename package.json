@@ -1,0 +1,16 @@
+{
+  "name": "md2pdf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Convert Markdown files to PDF while preserving local image fidelity.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "katex": "^0.16.22",
+    "markdown-it": "^14.1.0",
+    "markdown-it-texmath": "^1.0.0",
+    "playwright": "1.58.2"
+  }
+}
